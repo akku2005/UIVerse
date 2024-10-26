@@ -13,7 +13,7 @@ Welcome to **Awesome UI Library**! A collection of pre-designed, production-read
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/your-github-username/awesome-ui-library.git
+   git clone git@github.com:akku2005/UIVerse.git
 
    ```
 
