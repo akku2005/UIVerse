@@ -26,7 +26,7 @@ npm install
 3. Run the app locally:
 
 ```
-npm start
+yarn run dev
 ```
 
 ## 🎯 How to Contribute
