@@ -1,0 +1,28 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3B82F6;
+  --primary-hover: #2563EB;
+}
+
+/* Add theme-specific utility classes */
+@layer utilities {
+  .bg-theme-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .text-theme-primary {
+    color: var(--primary-color);
+  }
+  
+  .hover\:bg-theme-primary-hover:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .hover\:text-theme-primary-hover:hover {
+    color: var(--primary-hover);
+  }
+}

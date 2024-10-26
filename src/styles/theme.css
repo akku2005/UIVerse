@@ -1,0 +1,44 @@
+.theme-blue {
+  --primary-color: #3B82F6;
+  --primary-hover: #2563EB;
+}
+
+.theme-red {
+  --primary-color: #EF4444;
+  --primary-hover: #DC2626;
+}
+
+.theme-green {
+  --primary-color: #34C759;
+  --primary-hover: #16A34A;
+}
+
+.theme-purple {
+  --primary-color: #8B5CF6;
+  --primary-hover: #7C3AED;
+}
+
+
+@keyframes highlight {
+  0% {
+    background-color: rgba(var(--theme-primary-rgb), 0.2);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.highlight {
+  animation: highlight 2s ease-out;
+}
+
+.search-highlight {
+  background-color: rgba(var(--theme-primary-rgb), 0.2);
+  padding: 0.1em 0.2em;
+  border-radius: 0.2em;
+}
+
+/* Dark mode styles */
+.dark .search-highlight {
+  background-color: rgba(var(--theme-primary-rgb), 0.3);
+}
