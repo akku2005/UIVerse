@@ -136,7 +136,7 @@ export const tabsData = [
               {tabs.map((tab) => (
                 <a
                   key={tab.id}
-                  href="#"
+                 
                   className={\`px-3 py-2 font-medium text-sm rounded-md \${
                     activeTab === tab.id
                       ? 'bg-blue-50 text-blue-700'
